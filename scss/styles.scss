@@ -1,0 +1,62 @@
+#body{
+    background-image: linear-gradient(to right red pink);
+}
+
+section.form{
+    h1{
+        
+        text-align:center;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+section.pie-pagina{
+    h1{
+        text-align: center;
+        
+    }
+    div.footer-container{
+        align-items: center;
+    }
+}
+.footer {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer a img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 600px) {
+    .footer a {
+        margin: 10px 5px;
+    }
+}
+
+section.service{
+    h1{
+        text-align: center;
+    }
+}
+.slide{
+    margin-top: 40px;
+    
+}
+.slide img{
+    height: 90vh;
+}
+.card img{
+    height: 50vh;
+}
