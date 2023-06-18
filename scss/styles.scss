@@ -1,6 +1,12 @@
-#body{
-    background-image: linear-gradient(to right red pink);
+@import "trabajos";
+@import "contacto";
+@import "servicios";
+body{
+    background-color: $color-rosa;
+    margin: 4px;
+    
 }
+
 
 section.form{
     h1{
@@ -59,4 +65,44 @@ section.service{
 }
 .card img{
     height: 50vh;
+}
+
+.sobre-mi{
+
+    h1{
+        text-align: center;
+        padding-top: 40px;
+        
+    }
+    p{
+        display: flex;
+    }
+
+}
+
+.sobre-mi img{
+    width: 350px;
+    margin-top: 60px;
+    padding: 30px;
+    border: none;
+}
+
+.card{
+    background-color: #D7BDE2;
+}
+
+.mb-3{
+    width: 700px;
+    margin-left: 200px;
+    
+}
+
+.slide{
+    width: 600px;
+    margin-left: 250px;
+    
+}
+.form{
+    align-items: center;
+    text-align: center;
 }
