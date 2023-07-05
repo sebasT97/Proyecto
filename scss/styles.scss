@@ -1,24 +1,46 @@
 @import "trabajos";
 @import "contacto";
 @import "servicios";
-body{
-    background-color: $color-rosa;
-    margin: 4px;
+@import "variables";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    background-image: $color-body;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 30%;
+
     
+}
+#carouselExample{
+    width: 70%;
+    position: relative;
+    height: 40%;
 }
 
 
+
+@mixin texto{
+  text-align: center;  
+}
+
+@mixin medidas{
+    width: 700px;
+    margin-left: 200px;
+}
+
+
+
+
 section.form{
-    h1{
-        
-        text-align:center;
-    }
-    h2{
-        text-align: center;
-    }
-    p{
-        text-align: center;
-    }
+@include texto()
 }
 section.pie-pagina{
     h1{
@@ -52,19 +74,7 @@ section.pie-pagina{
 }
 
 section.service{
-    h1{
-        text-align: center;
-    }
-}
-.slide{
-    margin-top: 40px;
-    
-}
-.slide img{
-    height: 90vh;
-}
-.card img{
-    height: 50vh;
+@include texto()
 }
 
 .sobre-mi{
@@ -87,22 +97,52 @@ section.service{
     border: none;
 }
 
-.card{
-    background-color: #D7BDE2;
-}
 
-.mb-3{
-    width: 700px;
-    margin-left: 200px;
-    
-}
+
+
 
 .slide{
-    width: 600px;
-    margin-left: 250px;
+@include medidas()
     
 }
 .form{
-    align-items: center;
+    
     text-align: center;
+   
 }
+
+.card{
+    width: 80%;
+    height: 80%;
+
+    
+    p{
+        font-family: 'Satisfy', cursive;
+    }
+   
+background-color: grey;
+border: none;
+    
+}
+.col{
+    padding-left: 60px;
+    
+        
+}
+.card-img-top{
+    width: 100%;
+    height: 100%;
+}
+.mb-3{
+    width: 70%;
+    align-items: center;
+    display: inline-block;
+}
+.form-floating{
+    width: 70%;
+    align-items: center;
+    display: inline-block;
+}
+
+
+    

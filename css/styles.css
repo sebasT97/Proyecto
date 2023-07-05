@@ -1,15 +1,25 @@
-body {
-  background-color: #D7BDE2;
-  margin: 4px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-section.form h1 {
-  text-align: center;
+#body {
+  background-image: linear-gradient(to right, #42275a, #734b6d);
 }
-section.form h2 {
-  text-align: center;
+
+.carousel-item {
+  width: 100%;
+  height: 30%;
 }
-section.form p {
+
+#carouselExample {
+  width: 70%;
+  position: relative;
+  height: 40%;
+}
+
+section.form {
   text-align: center;
 }
 
@@ -40,20 +50,8 @@ section.pie-pagina div.footer-container {
     margin: 10px 5px;
   }
 }
-section.service h1 {
+section.service {
   text-align: center;
-}
-
-.slide {
-  margin-top: 40px;
-}
-
-.slide img {
-  height: 90vh;
-}
-
-.card img {
-  height: 50vh;
 }
 
 .sobre-mi h1 {
@@ -71,23 +69,44 @@ section.service h1 {
   border: none;
 }
 
-.card {
-  background-color: #D7BDE2;
-}
-
-.mb-3 {
+.slide {
   width: 700px;
   margin-left: 200px;
 }
 
-.slide {
-  width: 600px;
-  margin-left: 250px;
+.form {
+  text-align: center;
 }
 
-.form {
+.card {
+  width: 80%;
+  height: 80%;
+  background-color: grey;
+  border: none;
+}
+.card p {
+  font-family: "Satisfy", cursive;
+}
+
+.col {
+  padding-left: 60px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.mb-3 {
+  width: 70%;
   align-items: center;
-  text-align: center;
+  display: inline-block;
+}
+
+.form-floating {
+  width: 70%;
+  align-items: center;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=styles.css.map */
