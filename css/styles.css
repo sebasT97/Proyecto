@@ -8,17 +8,21 @@
   background-image: linear-gradient(to right, #42275a, #734b6d);
 }
 
-.carousel-item {
-  width: 100%;
-  height: 30%;
-}
+/*.carousel-item{
+    width: 80%;
+    height: 80%;
 
-#carouselExample {
-  width: 70%;
-  position: relative;
-  height: 40%;
-}
 
+
+
+}
+.carousel-slide{
+    width: 80%;
+    display: contents;
+    height: 70%;
+
+}
+*/
 section.form {
   text-align: center;
 }
@@ -80,21 +84,48 @@ section.service {
 
 .card {
   width: 80%;
-  height: 80%;
-  background-color: grey;
-  border: none;
+  height: 100%;
 }
 .card p {
   font-family: "Satisfy", cursive;
 }
+.card p {
+  color: #fff;
+}
+.card h5 {
+  color: #fff;
+}
+
+.container-fluid a {
+  color: #fff;
+}
+
+.info2 {
+  display: flex;
+}
+.info2 p {
+  margin-top: 15rem;
+  padding-left: 1%;
+}
+.info2 img {
+  background-image: linear-gradient(to right, #42275a, #734b6d);
+}
 
 .col {
-  padding-left: 60px;
+  display: flex;
+}
+
+.row {
+  margin: 0%;
+}
+
+.card {
+  background-image: linear-gradient(to right, #42275a, #734b6d);
 }
 
 .card-img-top {
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .mb-3 {
@@ -107,6 +138,196 @@ section.service {
   width: 70%;
   align-items: center;
   display: inline-block;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.card_button {
+  background: #fff159;
+  outline: none;
+  border: none;
+  color: #030303;
+  font-weight: bold;
+  padding: 3px 3px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 150px;
+  height: 3.5rem;
+}
+
+.card_button_text {
+  color: #030303;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+.swiper-pagination {
+  bottom: 90%;
+  color: #060606;
+}
+
+.swiper-paginationCarousel {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.favoritos {
+  padding: 1rem 4%;
+}
+
+.card {
+  margin: 5px 5px 5px 5px !important;
+}
+
+.mySwiperCarousel {
+  background-color: rgb(119, 119, 119);
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.mySwiperCarousel .swiper-slide {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#cantprod {
+  font-size: 14px;
+  color: #030303;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.swiper-pagination {
+  color: #030303;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: unset !important;
+}
+
+#tituloIndex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div[type=button] {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.swiper-slide {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.swiper-grid-column > .swiper-wrapper {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.swiper-pagination {
+  color: #030303;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: unset !important;
+}
+
+.bton {
+  position: fixed;
+}
+
+.pag {
+  top: -20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
